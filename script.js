@@ -1,5 +1,7 @@
 function stringChop(str, size) {
   // your code here
+	if(str==null)
+		return []
 	sub = []
 	i = 0
 	while(i <= str.length) {
